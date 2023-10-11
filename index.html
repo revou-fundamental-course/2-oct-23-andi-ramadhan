@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mini Project</title>
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js"></script>
     </head>
     <body>
         <header>
@@ -17,13 +16,15 @@
                 <input id="input-field" type="text" placeholder="0">
                 <div id="input-button">
                     <button onclick="konversi()">Konversi</button>
-                    <button onclick="reset()">Reset</button>
+                    <button onclick="resetAll()">Reset</button>
                     <button>Reverse</button>
                 </div>
             </section>
             <section class="result-section">
                 <label for="result">Fahrenheit (°F):</label>
-                            <div id="result"></div><br>
+                    <div id="result">
+                    </div>
+                    <br>
             </section>
             <br>
             <br>
@@ -51,6 +52,6 @@
             </section>
 
         </main>
-
+        <script src="js/script.js"></script>
     </body>
 </html>

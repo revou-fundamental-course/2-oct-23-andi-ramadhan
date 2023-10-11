@@ -1,6 +1,5 @@
 function konversi(){
     let satu = document.getElementById("input-field").value;
-    //let dua = document.getElementById("result").value;
 
     let hasil = parseInt(satu) * 9/5 + 32;
 
@@ -8,7 +7,6 @@ function konversi(){
     document.getElementById("kalkulasi").innerHTML = satu + "°C * (9/5) + 32 = " + hasil + "°F";
 }
 
-// function reset(){
-    
-//    addEventListener();
-// }
+function resetAll(){
+    document.getElementById("input-field").reset();
+}
